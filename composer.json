@@ -1,0 +1,30 @@
+{
+  "name": "triple888/reindex",
+  "description": "It allows you to reindex programmatically",
+  "require": {
+    "php": "~7.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Triple 888 Studio",
+      "email": "maxc@triple888.com.au",
+      "homepage": "http://www.triple888international.com",
+      "role": "Leader"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Triple888\\Reindexer\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}
